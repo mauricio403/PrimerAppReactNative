@@ -1,11 +1,13 @@
 import React from 'react'
-import { HolaMundoScreen } from './src/screens/HolaMundoScreen'
+import ContadorScreen from './src/screens/ContadorScreen'
+// import { HolaMundoScreen } from './src/screens/HolaMundoScreen'
 
 export const App = () => {
 
 
   return (
-   <HolaMundoScreen></HolaMundoScreen>
+  //  <HolaMundoScreen></HolaMundoScreen>
+  <ContadorScreen></ContadorScreen>
   )
 }
 
